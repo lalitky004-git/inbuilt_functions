@@ -1,7 +1,7 @@
 <?php
  session_start();
 
- $SESSION1["name"]= "lalit";
- echo $SESSION1["name"];
+ $_SESSION["name"]= "lalit";
+ echo $_SESSION["name"];
  session_destroy();
  
